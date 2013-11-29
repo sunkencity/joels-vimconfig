@@ -15,8 +15,9 @@ set expandtab
 set guifont=Monaco:h14
 set background=dark
 set number
-"colorscheme proton
-colorscheme distinguished
+"colorscheme anotherdark
+colorscheme kate
+"colorscheme distinguished
 
 map ,m :NERDTreeToggle<CR>
 let g:NERDTreeSortOrder = []
