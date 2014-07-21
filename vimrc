@@ -15,6 +15,7 @@ set expandtab
 set guifont=Monaco:h14
 set background=dark
 set number
+set visualbell
 "colorscheme anotherdark
 colorscheme kate
 "colorscheme distinguished
@@ -27,7 +28,7 @@ nmap k gk
 let g:syntastic_js_checkers=['jslint']
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_ballons=1
-"let g:syntastic_mode_map = { 'mode': 'active' }
+let g:syntastic_mode_map = { 'mode': 'active' }
 
 nmap \t :set expandtab tabstop=4 shiftwidth=4 softtabstop=4
 nmap \T :set expandtab tabstop=8 shiftwidth=8 softtabstop=4
